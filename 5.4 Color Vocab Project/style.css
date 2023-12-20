@@ -1,0 +1,31 @@
+/*these are element styles*/
+img {
+    height: 200px;
+    width: 200px;
+}
+
+/*these are class styles*/
+.color-title {
+    font-weight: normal;
+}
+
+/*these are id styles*/
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#orange {
+    color: orange;
+}
+
+#green {
+    color: green;
+}
+
+#yellow {
+    color: yellow;
+}

@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+/*grouping selectors together using a comma*/
+h1, h2{
+    color: blueviolet;
+}
+
+/*child selectors using a greater than symbol*/
+.box > p{
+    color: firebrick;
+}
+
+/*descendant selector. any child, grandchildren, etc. of the parent is affected*/
+.box li{
+    color: blue;
+}
+
+/*chaining selector. apply where ALL selectors are true. ex. selectorselector*/
+li.done{
+    color: seagreen;
+}
+
+/*combining combiners. any of these can be combined*/
+ul p.done{
+    font-size: 0.5rem;
+}
